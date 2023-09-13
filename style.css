@@ -1,0 +1,166 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.clear {
+    clear:both;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    margin-top: 20px;
+    width: 60%;
+    /* height: 1050px; */
+    background-color: white;
+    border-radius: 20px;
+}
+
+.header {
+    
+    background-color: black;
+    color: white;
+    height: 80px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 50px;
+    border-radius: 20px 20px 0 0;
+}
+
+.header span {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.perfil {
+    height: 200px;
+    border-bottom: 2px solid;
+}
+
+.dados {
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid; */
+    float: left;
+    text-align: right;
+    padding-top: 70px;
+    padding-right: 20px;
+}
+
+.foto {
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid; */
+    float: left;
+}
+
+.foto img {
+    width: 140px;
+    border-radius: 50%;
+    border: 1px solid;
+    margin-top: 25px;
+    margin-left: 15px;
+
+}
+
+.exper {
+    height: 500px;
+    width: 60%;
+    /* border: 1px solid;  */
+    float: left;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.exper h2 {
+    text-decoration: underline;
+    padding-left: 5px;
+}
+
+.exper h3, .exper h4, .exper p {
+    padding-left: 15px;
+}
+
+.exper h3 {
+    margin-top: 16px;
+}
+
+.exper h4 {
+    font-weight: normal;
+}
+
+.tech {
+    height: 500px;
+    width: 40%;
+    float: left;
+    border-left: 2px solid;
+    padding-left: 10px;
+}
+
+.tech h2 {
+    margin-bottom: 16px;
+    text-decoration: underline;
+    padding-left: 5px;
+}
+
+.ball {
+    height: 16px;
+    width: 16px;
+    background-color: black;
+    border-radius: 50%;
+    float: left;
+    margin-left: 5px;
+}
+
+.ballNull {
+    height: 16px;
+    width: 16px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 50%;
+    float: left;
+    margin-left: 5px;
+}
+
+.tech p {
+    float: left;
+    width: 50%;
+    clear: both;
+}
+
+.tech h4 {
+    padding-right: 20px;
+    font-weight: normal;
+}
+
+.educ {
+    border-top: 2px solid;
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+}
+
+.educ h2 {
+    text-decoration: underline;
+    padding-left: 5px;
+}
+
+.educ h3 {
+    margin-top: 10px;
+}
+
+.educ h3, .educ p {
+    padding-left: 10px;
+}
+
+a{
+    color: whitesmoke
+}
+
+a:hover {
+    color: grey;
+    text-decoration: none;
+  }
